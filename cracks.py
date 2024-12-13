@@ -61,5 +61,5 @@ def main():
 
         time.sleep(1800)
 
-if name == "main":
-    main()
+if __name__ == "__main__":
+
