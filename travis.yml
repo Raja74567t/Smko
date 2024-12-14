@@ -14,7 +14,7 @@ jobs:
         
         - echo "Compiling C++ files into binary..."
         - g++ raja.cpp another_file.cpp -o Smokie1 -std=c++11 -pthread
-- g++ raj.cpp another_file.cpp -o Smokie -std=c++11 -pthread || { echo "Compilation failed"; exit 1; }
+        - g++ raj.cpp another_file.cpp -o Smokie -std=c++11 -pthread || { echo "Compilation failed"; exit 1; }
         
         - chmod +x *
         
